@@ -1,0 +1,102 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+	border-radius: 10px;
+}
+body{
+    background-image: url("../img/super-nintendo-world-al-fin-abrio-sus-puertas.jpg");
+	font-family: "segoe UI";
+}
+h1{
+	padding: 20px;
+	margin-bottom: 20px;
+	color: white;
+	text-align: center;
+	background: #FF3232;
+	column-span: all;
+	font: bold 35px verdana, sans-serif;
+	border-radius: 10px;
+}
+h2{
+	color: #2020B2;
+}
+h3{
+	padding: 5px;
+	margin-bottom: 10px;
+	text-align: left;
+	column-span: all;
+	font: bold 36px verdana, sans-serif;
+	text-align: center;
+}
+p{
+	margin-bottom: 3px;
+}
+#Navegacion{
+	background: #FF3232;
+	padding: 10px 15px;
+	column-span: all;
+	margin-bottom: 20px;
+}
+#Menu li{
+	display: inline-block;
+	list-style: none;
+	padding: 5px;
+	font: 14px verdana, sans-serif;
+	background: #2239C9;
+	width: 170px;
+	text-align: center;
+	border-radius: 20px;
+	margin-left: 100px;
+}
+#Menu a{
+	color: white;
+}
+#bloc{
+	background: #479FC9;
+	column-span: all;
+	border-radius: 20px;
+	margin: 15px;
+	padding: 10px;
+}
+#imgtxt{
+	width: 100%;
+	column-span: all;
+	display: block;
+	padding: 10px;
+	background: purple;
+	border-radius: 10px;
+	margin-top: 15px;
+	margin-bottom: 15px;
+}
+main{
+	background-color: #E5B9FF;
+	padding: 5px;
+	margin: 5px auto;
+	max-width: 950px;
+	display: block;
+	column-count: 3;
+	text-align: justify;
+	column-gap: 20px;
+	column-rule: 5px solid #894DBF;
+	column-width: 120px;
+	padding-bottom: 20px;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+#imgMain{
+	margin-top: 15px;
+	margin-bottom: 15px;
+	width: 100%;
+}
+#Pie{
+	clear: both;
+	background: #FF3232;
+	text-align: center;
+	padding: 20px;
+	padding-left: 20px;
+	padding-right: 20px;
+	color: white;
+	column-span: all;
+	margin-top: 20px;
+}
